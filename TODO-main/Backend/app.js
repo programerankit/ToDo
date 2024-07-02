@@ -4,7 +4,7 @@ const app=express();
 
 //Use CORS for Cross Origin Resourse Policy that allowed to communicate our server to our frontend
 app.use(cors({
-    origin:'*',
+    origin:'https://to-do-pi-teal-21.vercel.app/',
     credentials:true
 }))
 //This middleware is used for accepting the json from frontend
