@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "private": true,
+  "proxy":"https://todo-xfsc.onrender.com/api/v1",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
